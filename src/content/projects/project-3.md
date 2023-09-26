@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: Project title
+title: Drag and Drop Gallery
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://drag-and-drop-gallery-coral.vercel.app/
+tags: ['Nextjs', 'Typescript', 'Tailwindcss']
 ---
