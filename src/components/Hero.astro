@@ -1,18 +1,26 @@
 ---
-import heroImage from '@assets/images/hero.png';
+import heroImage from '@assets/images/hero1.png';
 import { Image } from '@astrojs/image/components';
 import Button from '@components/ui/Button.astro';
 ---
 
 <section
+	data-aos="fade-up"
+	data-aos-offset="200"
+	data-aos-delay="50"
+	data-aos-duration="1000"
+	data-aos-easing="ease-in-out"
+	data-aos-mirror="true"
+	data-aos-once="false"
+	data-aos-anchor-placement="top-center"
 	data-testid="hero"
 	class="flex h-screen flex-col-reverse items-center justify-center text-center lg:flex-row"
 >
 	<div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
 		<div>
 			<h1 class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl">
-				Hi! My name is <span class="text-orange">Jane Doe</span> and I am a web developer based in New
-				York.
+				Hi! My name is <span class="text-blue">Olakunle Oluwamayowa Raheem</span> and I am a software
+				developer based in Lagos, Nigeria.
 			</h1>
 		</div>
 		<div class="mb-10">
